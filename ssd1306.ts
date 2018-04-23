@@ -11,6 +11,7 @@ namespace MuseOLED {
     //% block="initialize OLED with height %height|width %width"
     //% icon="\uf1ec" 
     //% shim=OLED::init_terminal
+	//% weight=100	
     export function init(height: number, width: number): void {
         return;
     }
@@ -31,11 +32,12 @@ namespace MuseOLED {
      * @param text text to display
      */
     //% weight=87 blockGap=8
-    //% block="show OLED |string %text" 
+    //% block="show OLED string %text" 
     //% async
     //% blockId=oled_print_string
     //% icon="\uf1ec"
     //% shim=OLED::showString
+	//% weight=90	
     export function showString(text: string): void {
         console.log("display: " + text);
         return;
@@ -47,7 +49,7 @@ namespace MuseOLED {
      */
     //% weight=96
     //% blockId=oled_print_number
-    //% block="show OLED |number %number" blockGap=8
+    //% block="show OLED number %number" blockGap=8
     //% async 
     //% shim=OLED::showNumber
     export function showNumber(number: number): void {
