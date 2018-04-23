@@ -1,5 +1,5 @@
 // Auto-generated. Do not edit.
-declare namespace OLED {
+declare namespace MuseOLED {
 }
 
 // Auto-generated. Do not edit. Really.

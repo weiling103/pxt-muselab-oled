@@ -1,6 +1,6 @@
 //% icon="\uf26c"
 //% color="#F59E20" weight="100"
-namespace OLED {
+namespace MuseOLED {
 
     /**
      * initialises the i2c OLED display
