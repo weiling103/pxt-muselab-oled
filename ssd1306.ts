@@ -39,6 +39,7 @@ namespace MuseOLED {
     //% icon="\uf1ec"
     //% shim=OLED::showString
 	//% weight=96	
+	//% blockGap=8
     export function showString(text: string): void {
         console.log("display: " + text);
         return;
@@ -50,7 +51,7 @@ namespace MuseOLED {
      */
     //% weight=90
     //% blockId=oled_print_number
-    //% block="show OLED number %number" blockGap=8
+    //% block="show OLED number %number"
     //% async 
     //% shim=OLED::showNumber
     export function showNumber(number: number): void {
