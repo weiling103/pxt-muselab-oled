@@ -12,6 +12,7 @@ namespace MuseOLED {
     //% icon="\uf1ec" 
     //% shim=OLED::init_terminal
 	//% weight=100	
+	//% blockGap=8
     export function init(height: number, width: number): void {
         return;
     }
