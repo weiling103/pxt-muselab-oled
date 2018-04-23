@@ -1,5 +1,5 @@
 {
-  "name": "pxt-ssd1306-microbit",
+  "name": "pxt-muselab-oled",
   "version": "1.0.1",
   "dependencies": {},
   "devDependencies": {

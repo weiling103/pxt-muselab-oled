@@ -1,5 +1,5 @@
 //% icon="\uf26c"
-//% color="255" weight="90"
+//% color="#F59E20" weight="100"
 namespace OLED {
 
     /**
@@ -31,7 +31,7 @@ namespace OLED {
      * @param text text to display
      */
     //% weight=87 blockGap=8
-    //% block="show|string %text" 
+    //% block="show OLED |string %text" 
     //% async
     //% blockId=oled_print_string
     //% icon="\uf1ec"
@@ -47,7 +47,7 @@ namespace OLED {
      */
     //% weight=96
     //% blockId=oled_print_number
-    //% block="show|number %number" blockGap=8
+    //% block="show OLED |number %number" blockGap=8
     //% async 
     //% shim=OLED::showNumber
     export function showNumber(number: number): void {
