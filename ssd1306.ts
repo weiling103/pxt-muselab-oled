@@ -1,5 +1,5 @@
 //% icon="\uf26c"
-//% color="#F59E20" weight="100"
+//% color="#F59E20" weight="99"
 namespace MuseOLED {
 
     /**
