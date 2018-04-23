@@ -31,7 +31,7 @@ namespace MuseOLED {
      * prints a string on the OLED display
      * @param text text to display
      */
-    //% weight=87 blockGap=8
+    //% weight=87
     //% block="show OLED string %text" 
     //% async
     //% blockId=oled_print_string
