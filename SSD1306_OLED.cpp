@@ -3,7 +3,7 @@
 
 using namespace pxt;
 
-namespace OLED {
+namespace MuseOLED {
 	#define SSD1306_ADDRESS 0x78
 	#undef printf
 
