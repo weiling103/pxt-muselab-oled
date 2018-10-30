@@ -1,6 +1,6 @@
 // tests go here; this will not be compiled when this package is used as a library
 
-MuseOLED.init(64, 128)
+MuseOLED.init(32, 128)
 MuseOLED.showString("hello, world!")
 MuseOLED.showString("counter:")
 let item = 0

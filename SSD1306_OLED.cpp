@@ -26,7 +26,7 @@ namespace OLED {
 	}
 	
 	//%
-    void showString(StringData *text) {
+    void showString(String text) {
 		oled->printf("%s\n", text->data);
 		oled->display();
     }
